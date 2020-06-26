@@ -1,0 +1,689 @@
+body {
+		background-image: url("https://goodcities.net/wp-content/uploads/2017/11/stack-of-books.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 3px; 
+		margin: 1%;
+	}
+
+	/* The header should have a background color, background image (using a local image), and padding */ 
+	header img{
+		float: left;
+		width:13%;
+		height: 13%;
+		border: 1px solid transparent;
+        border-radius: 50px;
+        margin-left: 10%;
+	}
+	
+	header {
+		background: #C0C0C0; /* Silver */
+		background-image: url("https://weneedfun.com/wp-content/uploads/2016/12/Book-Wallpapers-HD-13.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding-top: 1%;
+	}
+
+	/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+	
+
+
+	/* h1 elements should be centered and have a new font color */
+	 header h1 {
+		color: #FAF0E6; /* White */
+		text-align: center;
+		text-transform: uppercase;
+		
+		font-size: 220%;
+		position: relative;
+		top: -10px;
+	}
+
+	/* h2 elements have a new font color */
+	h2 {
+		color: #000000; /* Black */
+		font-size: 12px;
+	}
+
+	/* The images should be part of the page now. In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images. */ 
+	.left {
+		background-image: url("https://media.istockphoto.com/vectors/stationery-flat-lay-books-background-studying-creative-lifestyle-vector-id1027852224");
+		background-repeat: no-repeat; 
+		width: 22%;
+		float: left;
+		padding: 5% 0; 
+		
+	}
+
+	.left img {
+		border: solid 2px #000000; /* Black */
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 1%;
+		margin-top: 10%;
+		margin-bottom: 50%;
+	    
+	}
+
+
+	/* The sections should be next to each other, not one on top of the other. */
+	.right {
+		width: 76%;
+		display: inline-block;
+		padding-left: 2%;
+	}
+	section h2 {
+		font-size: 150%;
+		font-family: "Lucida Console", Courier, monospace;
+		font-weight: bold;
+	}
+	section h3 {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 130%;
+	}
+	section p {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+	}
+	section ul {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+	}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 1%;
+}
+	.project1 {
+		float:left;
+		display: inline-block;
+		
+	}
+	#first {
+		float: left;
+		width: 45%;
+	}
+	#second {
+		border: 2px solid #000;
+        border-radius: 5px;
+		float: right;
+		width: 50%;
+	}
+	div h3{
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 130%;
+	}
+	div p{
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+		padding: 1%;
+		
+	}
+	div img{
+		width: 30%;
+	}
+
+
+
+footer {
+	margin-top:1%;
+	
+}
+footer div{
+	display: inline-block; 
+	margin: 0.5%;
+	padding: 0.5%;
+	border: 1px solid #CFC;
+    border-radius: 10px;
+}
+footer i {
+	font-size:30px;
+	color:lightblue;
+	position: relative;
+}
+@media (max-width: 500px ){
+	body {
+		background-image: url("https://goodcities.net/wp-content/uploads/2017/11/stack-of-books.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 3px; 
+		margin: 1%;
+	}
+
+	/* The header should have a background color, background image (using a local image), and padding */ 
+	header img{
+		float: left;
+		width:13%;
+		height: 13%;
+		border: 1px solid transparent;
+        border-radius: 50px;
+        margin-left: 10%;
+	}
+	
+	header {
+		background: #C0C0C0; /* Silver */
+		background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX1617345.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		padding-top: 1%;
+	}
+	header h1 {
+		color: #FFC0CB; /* White */
+		text-align: center;
+		text-transform: uppercase;
+		
+		font-size: 220%;
+		position: relative;
+		top: -10px;
+	}
+    header label {
+    margin: 0 10px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    width: 10%;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border: 1px solid #CFC;
+        margin: 0;
+        background-color: rgba(218,234,213,0.60);
+		text-decoration: none;
+		color: darkred;
+		font-family: "Lucida Console", Courier, monospace;
+		font-weight: bold;
+     
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+	/* h2 elements have a new font color */
+	h2 {
+		color: #000000; /* Black */
+		font-size: 12px;
+	}
+	.left{
+		display: none;
+	}
+	.project1 {
+		float:left;
+		display: inline-block;
+		
+	}
+	#first {
+		float: left;
+		width: 45%;
+	}
+	#second {
+		border: 2px solid #000;
+        border-radius: 5px;
+		float: right;
+		width: 50%;
+	}
+	div h3{
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 130%;
+	}
+	div p{
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+		padding: 1%;
+		
+	}
+	div img{
+		width: 30%;
+	}
+	footer {
+	margin-top:1%;
+	
+}
+footer div{
+	display: inline-block; 
+	margin: 0.5%;
+	padding: 0.5%;
+	border: 1px solid #CFC;
+    border-radius: 10px;
+}
+footer i {
+	font-size:30px;
+	color:lightblue;
+	position: relative;
+}
+}
+
+@media (min-width: 600px )and (max-width: 1199px){
+	body {
+		background-image: url("https://goodcities.net/wp-content/uploads/2017/11/stack-of-books.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 3px; 
+		margin: 1%;
+	}
+
+	/* The header should have a background color, background image (using a local image), and padding */ 
+	header img{
+		float: left;
+		width:13%;
+		height: 13%;
+		border: 1px solid transparent;
+        border-radius: 90px;
+        margin-left: 10%;
+	}
+	
+	header {
+		background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX1617345.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		
+        border-radius: 20px;
+		padding-top: 1%;
+	}
+
+	/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+	.nav {
+		text-align: center;
+	}
+
+ header  label {
+		display:none;
+	}
+	header input {
+		display:none;
+	}
+
+
+	div a {
+		background-color: rgba(218,234,213,0.60);
+		color: #000000; /* Black */
+		display: inline-block;
+		padding: 10px;
+		margin: 2%; 
+		text-decoration: none; 
+		border-radius: 30px; 
+	}
+a {
+		font-family: Arial, Helvetica, sans-serif;
+		color: #304000;
+		font-size: 150%;
+	}
+	.active {
+		background: #FFFFFF; /* White */
+	}
+
+	/* The link to the current page should be styled differently from the other links (using class = "active') */ 
+	a:hover {
+		background: #FFE4E1;
+		color: #000;
+	}
+	/* h1 elements should be centered and have a new font color */
+	 header h1 {
+		color: #FFC0CB; /* White */
+		text-align: center;
+		text-transform: uppercase;
+		
+		font-size: 220%;
+		position: relative;
+		top: -10px;
+	}
+
+	/* h2 elements have a new font color */
+	h2 {
+		color: #000000; /* Black */
+		font-size: 12px;
+	}
+
+	/* The images should be part of the page now. In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images. */ 
+	.left {
+		background-image: url("https://media.istockphoto.com/vectors/stationery-flat-lay-books-background-studying-creative-lifestyle-vector-id1027852224");
+		background-repeat: no-repeat; 
+		width: 22%;
+		float: left;
+		padding: 5% 0; 
+		
+	}
+
+	.left img {
+		border: solid 2px #000000; /* Black */
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 1%;
+		margin-top: 10%;
+		margin-bottom: 50%;
+	    
+	}
+
+
+	/* The sections should be next to each other, not one on top of the other. */
+	.right {
+		width: 70%;
+		display: inline-block;
+		padding-left: 1%;
+	}
+	section h2 {
+		font-size: 150%;
+		font-family: "Lucida Console", Courier, monospace;
+		font-weight: bold;
+	}
+	section h3 {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 130%;
+	}
+	section p {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+	}
+	section ul {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+	}
+
+	.project1 {
+		float:left;
+		display: inline-block;
+		
+	}
+	#first {
+		float: left;
+		width: 45%;
+	}
+	#second {
+		border: 2px solid #000;
+        border-radius: 5px;
+		float: right;
+		width: 50%;
+	}
+	div h3{
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 130%;
+	}
+	div p{
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+		padding: 1%;
+		
+	}
+	div img{
+		width: 30%;
+	}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 1%;
+}
+footer {
+	margin-top:1%;
+	
+}
+footer div{
+	display: inline-block; 
+	margin: 0.5%;
+	padding: 0.5%;
+	border: 1px solid #CFC;
+    border-radius: 10px;
+}
+footer i {
+	font-size:30px;
+	color:lightblue;
+	position: relative;
+}
+}
+
+
+@media (min-width: 1200px){
+	body {
+		background-image: url("https://goodcities.net/wp-content/uploads/2017/11/stack-of-books.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 3px; 
+		margin: 1%;
+	}
+
+	/* The header should have a background color, background image (using a local image), and padding */ 
+	header img{
+		float: left;
+		width:13%;
+		height: 13%;
+		border: 1px solid transparent;
+        border-radius: 90px;
+        margin-left: 10%;
+	}
+	
+	header {
+		background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX1617345.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%; 
+		
+        border-radius: 20px;
+		padding-top: 1%;
+	}
+
+	/* The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration, and padding */
+	.nav {
+		text-align: center;
+	}
+
+ header  label {
+		display:none;
+	}
+	header input {
+		display:none;
+	}
+
+
+	div a {
+		background-color: rgba(218,234,213,0.60);
+		color: #000000; /* Black */
+		display: inline-block;
+		padding: 10px;
+		margin: 2%; 
+		text-decoration: none; 
+		border-radius: 30px; 
+	}
+a {
+		font-family: Arial, Helvetica, sans-serif;
+		color: #304000;
+		font-size: 25px;
+	}
+	.active {
+		background: #FFFFFF; /* White */
+	}
+
+	/* The link to the current page should be styled differently from the other links (using class = "active') */ 
+	a:hover {
+		background: #FFE4E1;
+		color: #000;
+	}
+	/* h1 elements should be centered and have a new font color */
+	 header h1 {
+		color: #FFC0CB; /* White */
+		text-align: center;
+		text-transform: uppercase;
+		
+		font-size: 220%;
+		position: relative;
+		top: -10px;
+	}
+
+	/* h2 elements have a new font color */
+	h2 {
+		color: #000000; /* Black */
+		font-size: 12px;
+	}
+
+	/* The images should be part of the page now. In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images. */ 
+	.left {
+		background-image: url("https://media.istockphoto.com/vectors/stationery-flat-lay-books-background-studying-creative-lifestyle-vector-id1027852224");
+		background-repeat: no-repeat; 
+		width: 22%;
+		float: left;
+		padding: 5% 0; 
+		
+	}
+
+	.left img {
+		border: solid 2px #000000; /* Black */
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 1%;
+		margin-top: 10%;
+		margin-bottom: 50%;
+	    
+	}
+
+
+	/* The sections should be next to each other, not one on top of the other. */
+	.right {
+		width: 70%;
+		display: inline-block;
+		padding-left: 1%;
+	}
+	section h2 {
+		font-size: 150%;
+		font-family: "Lucida Console", Courier, monospace;
+		font-weight: bold;
+	}
+	section h3 {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 130%;
+	}
+	section p {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+	}
+	section ul {
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+	}
+
+	.project1 {
+		float:left;
+		display: inline-block;
+		
+	}
+	#first {
+		float: left;
+		width: 45%;
+	}
+	#second {
+		border: 2px solid #000;
+        border-radius: 5px;
+		float: right;
+		width: 50%;
+	}
+	div h3{
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 130%;
+	}
+	div p{
+		font-family: "Lucida Console", Courier, monospace;
+		font-size: 90%;
+		padding: 1%;
+		
+	}
+	div img{
+		width: 30%;
+	}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 1%;
+}
+footer {
+	margin-top:1%;
+	
+}
+footer div{
+	display: inline-block; 
+	margin: 0.5%;
+	padding: 0.5%;
+	border: 1px solid #CFC;
+    border-radius: 10px;
+}
+footer i {
+	font-size:30px;
+	color:lightblue;
+	position: relative;
+}
+}
